@@ -1,0 +1,62 @@
+.newsImage {
+  width: 1000px;
+  height: 350px;
+  border-radius: 10px;
+}
+.newsTitle {
+  font-size: 20px;
+  position: absolute;
+  top: 300px;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: white;
+  width: 980px;
+  height: 60px;
+  padding-left: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-top: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+.newsContainer {
+  height: 500px; /* Adjust based on your design */
+  border: 1px solid #ccc; /* Optional: to visually see the container */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.newsItem {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  display: inline-block; /* Display items in a row */
+  width: 1000px; /* Set a fixed width for each news item */
+  margin-right: 10px; /* Space between items */
+  height: 350px; /* Optional: height for the items */
+  margin-left: 270px;
+  margin-top: 10px;
+  position: relative;
+  cursor: pointer;
+  flex: 1;
+  opacity: 0;
+  position: absolute;
+}
+.newItemDisplayed {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  display: inline-block; /* Display items in a row */
+  width: 1000px; /* Set a fixed width for each news item */
+  margin-right: 10px; /* Space between items */
+  height: 350px; /* Optional: height for the items */
+  margin-left: 0px;
+  margin-top: 10px;
+  position: relative;
+  cursor: pointer;
+  flex: 1;
+  opacity: 1;
+  position: absolute;
+}
