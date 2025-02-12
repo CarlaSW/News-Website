@@ -1,0 +1,74 @@
+.newsImage {
+  width: 1000px;
+  height: 350px;
+  border-radius: 10px;
+}
+.newsTitle {
+  font-size: 20px;
+  position: absolute;
+  top: 300px;
+  font-family: sans-serif;
+  font-weight: bold;
+  background-color: white;
+  width: 980px;
+  height: 80px;
+  padding-left: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-top: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+.newsContainer {
+  height: 100px; /* Adjust based on your design */
+  white-space: nowrap; /* Prevents wrapping of content */
+  border: 1px solid #ccc; /* Optional: to visually see the container */
+}
+
+.newsItem {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  flex: 1;
+  display: inline-block; /* Display items in a row */
+  width: 1000px; /* Set a fixed width for each news item */
+  margin-right: 10px; /* Space between items */
+  height: 400px; /* Optional: height for the items */
+  margin-left: 270px;
+  margin-top: 10px;
+  position: relative;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.newsItem:hover {
+  opacity: 0.7;
+}
+.newsItem:active {
+  opacity: 0.3;
+}
+.author {
+  display: block;
+  color: gray;
+  font-weight: 300;
+}
+.publicationDate {
+  color: gray;
+  font-weight: 300;
+  font-size: 15px;
+}
+.description {
+  opacity: 1;
+  z-index: 2;
+  background-color: white;
+  position: absolute;
+  width: 960px;
+  height: 280px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+  top: -20px;
+  opacity: 0;
+  padding: 20px;
+  font-size: 20px;
+}
+.description:hover {
+  opacity: 1;
+}
